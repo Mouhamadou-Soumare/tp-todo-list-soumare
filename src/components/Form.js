@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
 
 
-export default function TodoForm(props) {
+export default function Form(props) {
     const [input, setInput] = useState("");
 
     const handleSubmit = (e) => {

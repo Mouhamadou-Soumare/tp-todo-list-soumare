@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 
-export default function TodoItem(props) {
+export default function List(props) {
     const {todo, removeTodo, completeTodo} = props
     return (
         <div className={todo.completed ? "todo-row complete" : "todo-row"}>
